@@ -1,0 +1,4 @@
+[CASSETTE LABEL: "Sheffield Demos - 2006"]
+Scrawled on the tape: "Don't believe the hype."
+Alex Turner left a note: "You won't find the rhythm just by staring at the surface. 
+Check what's hidden in the shadows of this garage (hint: ls -a)."
