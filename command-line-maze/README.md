@@ -6,10 +6,8 @@
 
 ---
 
-## Welcome to the Maze!
-
-Hi, welcome to my Command Line Maze! I am working with group **A2** regarding the **music topic**. In this maze, you will explore modern band music and studio journeys by navigating directories and solving command line puzzles.
-
+**Welcome!**
+Hi, welcome to my Command Line Maze! 
 Your goal is to reach the **Final Stage**, which is the Headliner Stage!
 
 ## Useful Command-Line Cheat Sheet & Navigation Keys
