@@ -38,7 +38,7 @@ To navigate your way from the garage studio all the way to the festival headline
 * **Inspect Every File:** Don't just look at the filenames. Use `cat` to read notes, tapes, and contracts; the text contains directions and hints on where to go next.
 * **Terminal Tab Completion:** You don't have to type out long folder names! Type the first few letters (e.g., `cd rec` or `cat dem`) and press `Tab` on your keyboard to auto-complete.
 
-### 🪟 Note for Windows (PowerShell) Users
+### Note for Windows (PowerShell) Users
 
 Different operating systems handle hidden files differently. Dotfiles (like `.secret-riff`) are hidden by default on Mac/Linux, but not on Windows PowerShell. 
 
@@ -46,5 +46,6 @@ If you are solving this maze on **Windows PowerShell**, please run the following
 
 ```powershell
 .\hide-dotfiles.ps1
+```
 
 **HAVE FUN!**
