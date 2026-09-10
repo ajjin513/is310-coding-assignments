@@ -1,14 +1,14 @@
 # [Indie Band Soundstage: A Command Line Maze]
 
-**By:** [Hong Ju Jin]  
-**Group:** A2 (Music & Cultural Data)  
+**By:** Hong Ju Jin
+**Group:** A2 on Music & Cultural Data  
 **Assignment:** IS 310 - Lost & Found in the Cultural Command Line  
 
 ---
 
 ## Welcome to the Maze!
 
-Hi, welcome to my Command Line Maze! I am working with group **A2** regarding the **music topic**. In this maze, you will explore modern band music and studio journeys by navigating directories and solving command-line puzzles.
+Hi, welcome to my Command Line Maze! I am working with group **A2** regarding the **music topic**. In this maze, you will explore modern band music and studio journeys by navigating directories and solving command line puzzles.
 
 Your goal is to reach the **Final Stage**, which is the Headliner Stage!
 
@@ -37,5 +37,14 @@ To navigate your way from the garage studio all the way to the festival headline
 * **Hit a Dead End?** If a room leads to a `dead-end.txt` or an empty path, don't worry, use `cd ..` to step back one level and check the alternative path.
 * **Inspect Every File:** Don't just look at the filenames. Use `cat` to read notes, tapes, and contracts; the text contains directions and hints on where to go next.
 * **Terminal Tab Completion:** You don't have to type out long folder names! Type the first few letters (e.g., `cd rec` or `cat dem`) and press `Tab` on your keyboard to auto-complete.
+
+### 🪟 Note for Windows (PowerShell) Users
+
+Different operating systems handle hidden files differently. Dotfiles (like `.secret-riff`) are hidden by default on Mac/Linux, but not on Windows PowerShell. 
+
+If you are solving this maze on **Windows PowerShell**, please run the following command once you navigate into the unzipped `garage-studio` directory
+
+```powershell
+.\hide-dotfiles.ps1
 
 **HAVE FUN!**
