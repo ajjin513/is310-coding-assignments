@@ -32,7 +32,7 @@ To navigate your way from the garage studio all the way to the festival headline
 ### Tips for Navigating the Maze
 
 * **Spotting Hidden Riffs:** Standard `ls` will not show hidden secrets (like `.secret-riff`). Always run `ls -a` when you enter a new room so you don't miss hidden clues!
-* **Hit a Dead End?** If a room leads to a `dead-end.txt` or an empty path, don't worry, use `cd ..` to step back one level and check the alternative path.
+* **Did you hit the end?** If a room leads to a `dead-end.txt` or an empty path, don't worry, use `cd ..` to step back one level and check the alternative path.
 * **Inspect Every File:** Don't just look at the filenames. Use `cat` to read notes, tapes, and contracts; the text contains directions and hints on where to go next.
 * **Terminal Tab Completion:** You don't have to type out long folder names! Type the first few letters (e.g., `cd rec` or `cat dem`) and press `Tab` on your keyboard to auto-complete.
 
