@@ -7,7 +7,7 @@
 ---
 
 **Welcome!**
-Hi, welcome to my Command Line Maze! 
+Hi, welcome to my Command Line Maze! <br><br>
 Your goal is to reach the **Final Stage**, which is the Headliner Stage!
 
 ## Useful Command-Line Cheat Sheet & Navigation Keys
