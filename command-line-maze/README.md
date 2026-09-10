@@ -1,7 +1,7 @@
-# [Indie Band Soundstage: A Command Line Maze]
+# Indie Band Soundstage: A Command Line Maze
 
-**By:** Hong Ju Jin
-**Group:** A2 on Music & Cultural Data  
+**By:** Hong Ju Jin <br><br>
+**Group:** A2 on Music & Cultural Data  <br><br>
 **Assignment:** IS 310 - Lost & Found in the Cultural Command Line  
 
 ---
