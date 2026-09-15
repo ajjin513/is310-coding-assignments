@@ -22,8 +22,7 @@ with an image, title, date, medium, and other catalog information.
   modern front-end framework that compiles CSS and JS together instead of
   keeping separate, readable files.
 
-- **JavaScript:** JavaScript powers a lot of the interactivity — the search
-  bar, the filters for artwork type/date/theme, and buttons all behave
+- **JavaScript:** JavaScript powers a lot of the interactivity in this website. The search bar, the filters for artwork type/date/theme, and buttons all behave
   dynamically without reloading the page.
 
 - **An unfamiliar file/domain:** Several images on the page are served from
@@ -32,7 +31,7 @@ with an image, title, date, medium, and other catalog information.
   content, like images for magazine articles and store products are through a
   separate content system.
 
-## Who built this website? How many people were involved?
+## Who built this website?
 
 - I couldn't find any developer or design credits directly on the website
   itself. There was no footer credit, and no "About this site" tech section.
