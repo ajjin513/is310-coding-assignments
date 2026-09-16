@@ -1,7 +1,7 @@
 # Assignment 1: Inspecting the Cultural Web
 By Hong Ju Jin
 
-**Site inspected:** MoMA Museum(https://www.moma.org/collection/)
+**Site inspected:** MoMA Museum(https://www.moma.org/collection/) <br>
 **GitHub repository:** github.com/MuseumofModernArt/collection (https://github.com/MuseumofModernArt/collection)
 
 ## About the site
