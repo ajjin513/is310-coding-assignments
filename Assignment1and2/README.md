@@ -22,7 +22,7 @@ with an image, title, date, medium, and other catalog information.
   modern front-end framework that compiles CSS and JS together instead of
   keeping separate, readable files.
 
-- **JavaScript:** JavaScript powers a lot of the interactivity in this website. The search bar, the filters for artwork type/date/theme, and buttons all behave
+- **JavaScript:** JavaScript makes a lot of the interactivity in this website. The search bar, the filters for artwork type/date/theme, and buttons all behave
   dynamically without reloading the page.
 
 - **An unfamiliar file/domain:** Several images on the page are served from
@@ -39,8 +39,7 @@ with an image, title, date, medium, and other catalog information.
 - I found a 2015 blog post from MoMA's own Digital Media Department,
   "Mutant Materials and Video Spaces: 20 years of MoMA on the web," https://medium.com/digital-moma/mutant-materials-and-video-spaces-20-years-of-moma-on-the-web-27a29fd83375
   which explains that MoMA's web presence started in 1995 with two curators,
-  Paola Antonelli and Barbara London, hand-building sites for their own
-  exhibitions.
+  Paola Antonelli and Barbara London.
 
 - To dig further, I also looked for a GitHub repository, the same way we
   looked at the contributors' graph for whatisdigitalhumanities.com in
@@ -51,6 +50,6 @@ with an image, title, date, medium, and other catalog information.
   160,000 catalog records for MoMA's collection, released under a public
   domain license.
 
-# Assignment 1: Inspecting the Cultural Web
+# Assignment 2: Styling the Cultural Web
 The file called `index.html` shows Vincent van Gogh's *The Starry Night* (1889)
 from MoMA's collection. It shows metadata, description, image, link, sources, and little interaction with javascript.
