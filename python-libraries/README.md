@@ -1,5 +1,5 @@
 # Music Data Entry CLI
-When you run the script, it first shows a table of example songs, made with the `Rich` library. It then asks you to enter your own favorite songs, one field at a time:
+When you run the script, it first shows a table of example songs made with the `Rich` library. It then asks you to enter your own favorite songs:
 
 | Field | Example |
 |---|---|
