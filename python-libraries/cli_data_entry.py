@@ -18,7 +18,7 @@ table.add_row("No Me Platiques Mas", "Luis Miguel", "Spotify", "Vibe")
 table.add_row("Really like you", "Babymonster", "Melon", "kpop")
 
 console.print(table)
-console.print("\ Enter your favorite songs:")
+console.print("\nEnter your favorite songs:")
 
 file_path = Path("music_data.csv")
 saved_count = 0
