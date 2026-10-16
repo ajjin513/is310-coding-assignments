@@ -1,0 +1,1 @@
+For this CLI Data Entry Assignment, I did not use AI in order to complete.
