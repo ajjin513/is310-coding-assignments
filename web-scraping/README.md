@@ -14,9 +14,9 @@ python wiki_scraping.py
 
 ## Wiki and research question
 
-I chose the [Terraria Wiki](https://terraria.wiki.gg), the official community wiki for the game *Terraria*. It left Fandom.com for independent hosting on wiki.gg, and its pages follow a consistent structure that is easy to scrape.
+I chose the [Terraria Wiki](https://terraria.wiki.gg), the official community wiki for the game Terraria. It left Fandom.com for independent hosting on wiki.gg, and its pages follow a consistent structure that is easy to scrape.
 
-**Does the Terraria Wiki document progression bosses more heavily than optional event bosses?**
+**"Does the Terraria Wiki document progression bosses more heavily than optional event bosses?"**
 
 The wiki's [Bosses](https://terraria.wiki.gg/wiki/Bosses) page sorts all 33 bosses into pre-Hardmode, Hardmode, event, and special-seed groups. My scraper reads that page (level 1), then visits each boss's page (level 2) and records its word count, character count, total internal links, and unique internal links. Comparing these groups shows where volunteer documentation is concentrated, which could interest researchers studying fan labor and what parts of a game a community treats as worth explaining.
 
