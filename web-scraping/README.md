@@ -24,7 +24,7 @@ The wiki's [Bosses](https://terraria.wiki.gg/wiki/Bosses) page sorts all 33 boss
 
 robots.txt: <https://terraria.wiki.gg/robots.txt>
 
-Permits all user agents may crawl `/` (`Allow: /`), so ordinary article pages are open. Content may be used for search and reference, but not for AI training (`ai-train=no`). `api.php`, `index.php`, edit/history/diff URLs (`?action=`, `?oldid=`), search, `Special:`, `File:`, and `User:` pages. It also fully blocks AI-training bots, SEO bots, and flooding tools like recursive `wget` and `Scrapy`, and warns that irresponsible automated traffic may be restricted.
+robots.txt allows all user agents to crawl `/` (`Allow: /`), so ordinary article pages are open. Content may be used for search and reference, but not for AI training (`ai-train=no`). It forbids `api.php`, `index.php`, edit, history, and diff URLs (`?action=`, `?oldid=`), search, and `Special:`, `File:`, and `User:` pages. It also fully blocks AI training bots, SEO bots, and flooding tools like recursive `wget` and `Scrapy`, and warns that irresponsible automated traffic may be restricted.
 
 My scraper only requests allowed article pages, checks every URL against robots.txt in code, sends an honest User-Agent, waits 2 seconds between requests, and does not parse pages that do not return 200. It collects only counts, not article text.
 
