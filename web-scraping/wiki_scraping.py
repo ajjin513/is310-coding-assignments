@@ -37,43 +37,34 @@ def fetch_soup(url):
 
     response = requests.get(url, headers=HEADERS, timeout=30)
     time.sleep(REQUEST_DELAY)
-
+    
     if response.status_code != 200:
         print(f"Could not download {url}: HTTP {response.status_code}")
         return None
-
     return BeautifulSoup(response.text, "html.parser")
 
 def scrape_boss_list(soup):
     bosses = []
     if soup is None:
         return bosses
-
     content = soup.select_one("#mw-content-text .mw-parser-output")
     group = None
-
     for heading in content.find_all(["h2", "h3"]):
         name = heading.get_text(strip=True).removesuffix("[edit]").strip()
-
         if heading.name == "h2":
             group = GROUPS.get(name)  
             continue
-
         if group is None:
             continue
-
         link = heading.find_next("a", title=name, href=True)
         if link is None:
             continue
-
         bosses.append({
             "boss": name,
             "boss_group": group,
             "boss_url": urljoin(BASE_URL, link["href"]),
         })
-
     return bosses
-
 
 def get_internal_links(content):
     links = []
@@ -82,7 +73,6 @@ def get_internal_links(content):
         if href.startswith("/wiki/") and "#" not in href and "?" not in href:
             links.append(href)
     return links
-
 
 def analyze_boss(boss):
     record = boss.copy()
@@ -108,7 +98,6 @@ def analyze_boss(boss):
     record["unique_internal_link_count"] = len(set(links))
     return record
 
-
 def save_csv(records, output_path):
     if not records:
         print("No records to save.")
@@ -117,7 +106,6 @@ def save_csv(records, output_path):
         writer = csv.DictWriter(file, fieldnames=records[0].keys())
         writer.writeheader()
         writer.writerows(records)
-
 
 def print_group_averages(records):
     groups = {}
